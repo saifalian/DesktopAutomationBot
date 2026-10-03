@@ -1,19 +1,21 @@
 # Desktop Automation Bot
 
-Desktop Automation Bot is a Python desktop assistant for screen-aware automation. It combines a PyQt-style user interface, screenshot capture, OCR/vision preprocessing, an agent memory layer, prompt orchestration, and mouse action execution.
+Desktop Automation Bot is a Python desktop app for experimenting with computer automation.
 
-The project is structured as a local desktop automation workbench: users can describe tasks, the agent can reason over visual context, and the UI provides dashboards, task cards, prompt dialogs, overlays, and bot interaction panels.
+In easy words, this project is made to help a bot look at the screen, understand what is happening, and prepare actions such as mouse movement or clicks. It includes a desktop interface, screenshot tools, OCR/vision modules, memory files, prompt handling, and automation helpers.
 
-## Features
+This is useful for learning how a local desktop assistant can be built step by step.
 
-- Desktop dashboard and bot UI components
-- Screenshot capture and preprocessing pipeline
-- OCR/vision module structure
-- Mouse action execution helpers
-- Agent memory and session tracking
-- LLM client and prompt definitions
-- Structured runtime logging
-- Worker/task-card UI flow
+## What This App Can Do
+
+- Show a desktop dashboard for the bot.
+- Take screenshots of the screen.
+- Prepare screenshots for OCR or vision processing.
+- Store memory and session information.
+- Use prompt files for AI-style task handling.
+- Include helper code for mouse actions.
+- Keep runtime logs for debugging.
+- Show task cards and worker UI screens.
 
 ## Tech Stack
 
@@ -45,7 +47,8 @@ pip install -r requirements.txt
 python main.py
 ```
 
-## Notes
+## Safety Notes
 
-Automation tools can move the mouse and interact with applications. Test on safe windows first and avoid running experimental tasks on sensitive websites, payment screens, or account settings pages.
+This project can be used for desktop automation experiments. Test it first on safe windows, such as a blank app or test page.
 
+Do not run experimental automation on banking pages, payment screens, private accounts, or important settings pages.
