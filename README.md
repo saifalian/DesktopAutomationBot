@@ -1,54 +1,78 @@
 # Desktop Automation Bot
 
-Desktop Automation Bot is a Python desktop app for experimenting with computer automation.
+![Desktop Automation Bot preview](docs/screenshots/preview.svg)
 
-In easy words, this project is made to help a bot look at the screen, understand what is happening, and prepare actions such as mouse movement or clicks. It includes a desktop interface, screenshot tools, OCR/vision modules, memory files, prompt handling, and automation helpers.
+## Short Description
 
-This is useful for learning how a local desktop assistant can be built step by step.
+A local desktop assistant experiment that can inspect the screen and prepare actions.
 
-## What This App Can Do
+## About This Project
 
-- Show a desktop dashboard for the bot.
-- Take screenshots of the screen.
-- Prepare screenshots for OCR or vision processing.
-- Store memory and session information.
-- Use prompt files for AI-style task handling.
-- Include helper code for mouse actions.
-- Keep runtime logs for debugging.
-- Show task cards and worker UI screens.
+Desktop Automation Bot is a Python desktop automation project. It explores how a local assistant can capture the screen, process images, keep memory, use prompts, and prepare safe mouse actions.
+
+The goal is to keep the project easy to understand, easy to run, and useful for learning or further development.
+
+## Main Features
+
+- Desktop dashboard for the bot
+- Screenshot capture and preprocessing
+- OCR/vision-ready modules
+- Agent memory and sessions
+- Prompt files for task handling
+- Mouse action helper code
+- Runtime logs for debugging
 
 ## Tech Stack
 
 - Python
-- PyQt/PySide-style UI modules
-- Screen capture and image preprocessing
-- OCR-ready vision layer
-- Local agent orchestration modules
+- Desktop UI
+- Screen capture
+- OCR/Vision modules
+- Mouse helpers
+
+## Project Location
+
+Main local folder:
+
+```text
+D:\PROJECTS\DesktopAutomationBot
+```
+
+GitHub repository:
+
+https://github.com/saifalian/DesktopAutomationBot
 
 ## Project Structure
 
 ```text
-actions/   # Mouse and desktop action helpers
-agent/     # Agent brain and memory/session modules
-config/    # Runtime settings
-llm/       # LLM client and prompts
-ui/        # Dashboard, dialogs, overlays, cards, workers
-utils/     # Logging helpers
-vision/    # Screenshot and preprocessing modules
-main.py    # Application entry point
+actions/       Mouse action helpers
+agent/         Bot brain, memory, and sessions
+config/        Runtime settings
+llm/           Prompt and LLM helper files
+ui/            Desktop interface files
+vision/        Screenshot and image tools
+main.py        App entry point
 ```
 
-## Setup
+## How To Run
 
-```powershell
-python -m venv .venv
-.\.venv\Scripts\Activate.ps1
-pip install -r requirements.txt
-python main.py
-```
+1. Create a Python virtual environment.
+2. Install requirements.txt.
+3. Run python main.py.
+4. Test only on safe windows first.
 
-## Safety Notes
+## Screenshot
 
-This project can be used for desktop automation experiments. Test it first on safe windows, such as a blank app or test page.
+The image above is a clean project preview for GitHub. It shows the main idea of the project in a simple way.
 
-Do not run experimental automation on banking pages, payment screens, private accounts, or important settings pages.
+## Current Status
+
+This project is uploaded to GitHub and prepared as a portfolio-style repository. More improvements can be added later, such as real app screenshots, demo videos, releases, and issue templates.
+
+## Safety Note
+
+Do not let experimental automation control banking, payment, private account, or system settings pages.
+
+## License
+
+No license file is included yet. Add a license before using this project as an open-source project.
