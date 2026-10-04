@@ -12,6 +12,24 @@ Desktop Automation Bot is a Python desktop automation project. It explores how a
 
 The goal is to keep the project easy to understand, easy to run, and useful for learning or further development.
 
+## Purpose And Idea
+
+**Purpose:** The purpose of this project is to experiment with a local desktop assistant that can look at the screen, understand context, keep memory, and prepare safe mouse actions.
+
+**Idea:** The idea is to make a desktop bot that can help with computer tasks by using screenshots, OCR/vision modules, prompts, memory, and action helpers.
+
+**Why I made it:** I made this to learn how PC automation agents work from the inside: screen capture, prompt handling, memory, logs, and mouse action planning.
+
+## Screenshots
+
+### Real desktop capture
+
+![Real desktop capture](docs/screenshots/real-desktop-capture.png)
+
+### Project preview
+
+![Project preview](docs/screenshots/preview.svg)
+
 ## Main Features
 
 - Desktop dashboard for the bot
@@ -60,10 +78,6 @@ main.py        App entry point
 2. Install requirements.txt.
 3. Run python main.py.
 4. Test only on safe windows first.
-
-## Screenshot
-
-The image above is a clean project preview for GitHub. It shows the main idea of the project in a simple way.
 
 ## Current Status
 
